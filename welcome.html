@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Ngoc Cat My Tran" />
+    <meta name="description" content="Practical 2" />
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Practical 2</title>
+  </head>
+  <body>
+    <div id= "center">
+      <h1><b>Welcome to the WebDev quiz.</b></h1>
+      <form action="quiz.html" method="GET">
+        <div>
+            <label>What is your name?</label>
+            <input type="text" name="name" required minlength="2" placeholder="Required" />
+
+            <label>How old are you?</label>
+            <input type="number" name="age" min="10" max="100" />
+
+            <label>What is your email address?</label>
+            <input type="email" name="email" />
+        </div>
+        <input type="submit" value="Begin" />
+      </form>
+    </div>
+  </body>
+</html>
